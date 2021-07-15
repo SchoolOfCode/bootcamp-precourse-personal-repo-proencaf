@@ -1,0 +1,96 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  color: seashell;
+  margin: 0;
+  background: rgb(77, 75, 75);
+}
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  color: seashell;
+  text-align: center;
+}
+
+p {
+  color: seashell;
+  font-size: 3rem;
+}
+
+a:visited {
+  color: seashell;
+}
+#main {
+  padding: 5px;
+  border-radius: 5px;
+  background: rgb(77, 75, 75);
+  max-width: 100%;
+}
+
+@media (max-width: 100%) {
+  #main {
+    margin: 0;
+  }
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#img-div {
+  background: rgb(7, 7, 7);
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 100vh;
+}
+#img-caption {
+  margin: 10px 0 5px 0;
+  color: seashell;
+}
+
+#headline {
+  margin: 50px 0;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+header {
+  max-width: 100%;
+  height: 10vh;
+  background: #0f0f0f;
+  text-align: center;
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
+  color: seashell;
+  margin: 0 auto;
+  white-space: pre-line;
+}
+li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+h3 {
+  color: black;
+}
+a {
+  text-align: center;
+
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+a:hover {
+  color: salmon;
+  transition: 0.3s;
+}
